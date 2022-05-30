@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit2 C2</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+        #main>#banner{
+          border: 1px solid red;
+          width: 80%;
+          height: 200px;
+          margin: auto;
+          background-color: blue;
+          padding: 40px;
+          border-radius: 12px;
+        }
+        #main>#banner>h1{
+          color: white;
+        }
+        #main>#banner>p{
+          color: white;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        #main>#banner>button{
+          border-radius: 8px;
+          font-size: 80%;
+          padding: 8px;
+          background-color: white;
+        }
+        #main>#banner>div>img{
+          width: 40%;
+          height: 200px;
+          border: 1px solid teal;
+          margin-left: 62%;
+          margin-top: 0%;
+          margin-bottom: 800px;
+         
+        }
+        #main>#banner>#services{
+          display: grid;
+          grid-template-columns: repeat(6,1fr);
+          border: 10px solid orange;
+
+
+        }
+        
+
+
+      /* Medium Screen */
+      @media only screen and (min-width: 500px) and (max-width: 768px) {
+      }
+
+      /* Small Screen */
+      @media only screen and (min-width: 320px) and (max-width: 499px) {
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="banner">
+      
+        <h1>Your are in safe hands</h1>
+        <p>choose the expert to end to end surgical care</p>
+        <button>know more</button>
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/practo-care/1631634827/dweb_hero_banner.png"/>
+        </div>
+        <!-- Here should be 2 divs one for the banner heading and button and the second is for banner image -->
+      </div>
+      <div id="services">
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+        <!-- Here should be 6 divs. All of them should be in a single line for large screen. For medium and large screen refer to question statement -->
+      </div>
+      <div id="works">
+        <h1>Book an appointment for an in-clinic consultation</h1>
+        <p>Find experienced doctors across all specialties</p>
+        <div>
+          <!-- Here should be 8 divs. They should be in 4 colums and two rows for large screen.For medium and large screen refer to question statement -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
